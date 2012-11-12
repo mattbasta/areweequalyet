@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Are We Equal Yet?</title>
+  <script src="http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js"></script>
+  <link href="http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin:0; padding:0;
+    }
+    #status {
+      font-weight: bold;
+      font-size: 100px;
+      position:absolute;
+      top:45%;
+      text-align:center;
+      width:100%;
+      z-index: 3;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      pointer-events: none;
+    }
+    #map { position:absolute; top:0; bottom:0; width:100%; z-index: 2;}
+  </style>
+</head>
+<body>
+<div id="status">NO</div>
+<div id="map"></div>
+<script>
+  mapbox.auto('map', 'mattbasta.areweequalyet');
+</script>
+</body>
+</html>
