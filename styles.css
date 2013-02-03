@@ -47,6 +47,13 @@ body {
 }
 #controls a:hover {margin-right: 7px;}
 #controls a.active {margin-right: 0;}
+#controls a b {
+    display: inline-block;
+    height: 9px;
+    margin-right: 4px;
+    vertical-align: baseline;
+    width: 9px;
+}
 
 
 #map {

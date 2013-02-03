@@ -20,6 +20,10 @@ $('#map').load('map.svg', function() {
         var button = $('menu a[data-layer=' + type + ']');
         button.text(button.text() + ' (' + Math.round(data[type].length / states * 100) + '%)');
         data[type] = $('#' + data[type].join(', #'));
+
+        var key = $('<b>');
+        key.css('background-color', button.data('color'));
+        button.prepend(key);
     }
 
     controls.show();
