@@ -26,14 +26,10 @@ body {
     bottom:0;
     font-size: 12px;
     left:0;
-    opacity: 0.25;
     padding: 5px;
     position:fixed;
     width: 240px;
     z-index: 3;
-}
-#controls:hover {
-    opacity: 1;
 }
 #controls a {
     background: #fff;
@@ -41,8 +37,13 @@ body {
     display: block;
     margin-top: 3px;
     margin-right: 15px;
+    opacity: 0.25;
     padding: 8px 15px;
     text-decoration: none;
+}
+#controls:hover a,
+#controls a.active {
+    opacity: 1;
 }
 #controls a:hover {margin-right: 7px;}
 #controls a.active {margin-right: 0;}
