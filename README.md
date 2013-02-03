@@ -1,4 +1,4 @@
-areweequalyet
+Are we equal yet?
 =============
 
-areweequalyet.org
+A map of same-sex marriage in the United States.

@@ -2,34 +2,34 @@
 <html>
 <head>
   <title>Are We Equal Yet?</title>
-  <script src="http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js"></script>
-  <link href="http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css" rel="stylesheet" />
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin:0; padding:0;
-    }
-    #status {
-      font-weight: bold;
-      font-size: 100px;
-      position:absolute;
-      top:45%;
-      text-align:center;
-      width:100%;
-      z-index: 3;
-      user-select: none;
-      -moz-user-select: none;
-      -webkit-user-select: none;
-      pointer-events: none;
-    }
-    #map { position:absolute; top:0; bottom:0; width:100%; z-index: 2;}
-  </style>
+  <link type="text/css" rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <div id="status">NO</div>
-<div id="map"></div>
-<script>
-  mapbox.auto('map', 'mattbasta.areweequalyet');
+<div id="map"><span>Loading map data...</span></div>
+<menu id="controls" style="display:none;">
+  <a href="#" data-layer="legal_ss" data-color="#FFDA00" data-legal="yes">Same Sex Marriage Legal</a>
+  <a href="#" data-layer="legal_cu" data-color="#FFEEAD" data-legal="yes">Civil Unions Legal</a>
+  <a href="#" data-layer="legal_some" data-color="#FEF9E4" data-legal="yes">Some Rights</a>
+  <a href="#" data-layer="banned_const" data-color="#b00" data-legal="no">Constitutional SSM Ban</a>
+  <a href="#" data-layer="banned_leg" data-color="#922" data-legal="no">Legislative SSM Ban</a>
+  <a href="#" data-layer="banned_both" data-color="#700" data-legal="no">Const+Legis SSM Ban</a>
+</menu>
+<div id="rights">
+  <p>Map data courtesy of the Wikimedia Foundation &bull; Fork me on <a href="https://github.com/mattbasta/areweequalyet">Github</a></p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="script.js"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-38193934-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 </script>
 </body>
 </html>
