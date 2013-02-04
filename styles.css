@@ -33,6 +33,7 @@ body {
 }
 #controls a {
     background: #fff;
+    border-radius: 3px;
     color: #222;
     display: block;
     margin-top: 3px;
@@ -48,6 +49,8 @@ body {
 #controls a:hover {margin-right: 7px;}
 #controls a.active {margin-right: 0;}
 #controls a b {
+    border: 1px solid #bbb;
+    border-radius: 2px;
     display: inline-block;
     height: 9px;
     margin-right: 4px;
