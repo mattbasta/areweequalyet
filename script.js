@@ -1,6 +1,6 @@
 var data = {
-    "legal_ss": ['WA', 'IA', 'NY', 'VT', 'NH', 'CT', 'MA', 'MD', 'ME'],
-    "legal_cu": ['HI', 'OR', 'CA', 'NV', 'IL', 'NJ', 'DE', 'RI'],
+    "legal_ss": ['WA', 'IA', 'NY', 'VT', 'NH', 'CT', 'MA', 'MD', 'ME', 'RI'],
+    "legal_cu": ['HI', 'OR', 'CA', 'NV', 'IL', 'NJ', 'DE'],
     "legal_some": ['CO', 'WI'],
     "banned_const": ['NE'],
     "banned_leg": ['PA', 'IN', 'WV', 'NC', 'MN', 'WY'],
