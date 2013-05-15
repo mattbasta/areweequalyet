@@ -1,9 +1,9 @@
 var data = {
-    "legal_ss": ['WA', 'IA', 'NY', 'VT', 'NH', 'CT', 'MA', 'MD', 'ME', 'RI'],
-    "legal_cu": ['HI', 'OR', 'CA', 'NV', 'IL', 'NJ', 'DE'],
+    "legal_ss": ['WA', 'IA', 'NY', 'VT', 'NH', 'CT', 'MA', 'MD', 'ME', 'RI', 'DE', 'MN'],
+    "legal_cu": ['HI', 'OR', 'CA', 'NV', 'IL', 'NJ'],
     "legal_some": ['CO', 'WI'],
     "banned_const": ['NE'],
-    "banned_leg": ['PA', 'IN', 'WV', 'NC', 'MN', 'WY'],
+    "banned_leg": ['PA', 'IN', 'WV', 'NC', 'WY'],
     "banned_both": ['AK', 'MO', 'ID', 'NM', 'AZ', 'UT', 'KS', 'SD', 'ND', 'TX', 'LA', 'OK', 'AR', 'MT', 'AL', 'FL', 'GA', 'SC', 'VA', 'KY', 'TN', 'MS', 'OH',
                     'MI-', 'SP-'],  // Michigan is weird.
 };
