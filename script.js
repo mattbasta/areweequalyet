@@ -1,11 +1,11 @@
 var data = {
     "legal_ss": ['WA', 'IA', 'NY', 'VT', 'NH', 'CT', 'MA', 'MD', 'ME', 'RI', 'DE', 'MN', 'CA', 'NJ', 'HI', 'IL',
-                 'NM'],
+                 'NM', 'UT'],
     "legal_cu": ['OR', 'NV', 'CO'],
     "legal_some": ['WI'],
     "banned_const": ['NE'],
     "banned_leg": ['PA', 'IN', 'WV', 'NC', 'WY'],
-    "banned_both": ['AK', 'MO', 'ID', 'AZ', 'UT', 'KS', 'SD', 'ND', 'TX', 'LA', 'OK', 'AR', 'MT', 'AL', 'FL', 'GA', 'SC', 'VA', 'KY', 'TN', 'MS', 'OH',
+    "banned_both": ['AK', 'MO', 'ID', 'AZ', 'KS', 'SD', 'ND', 'TX', 'LA', 'OK', 'AR', 'MT', 'AL', 'FL', 'GA', 'SC', 'VA', 'KY', 'TN', 'MS', 'OH',
                     'MI-', 'SP-'],  // Michigan is weird.
 };
 
