@@ -1,8 +1,8 @@
 var data = {
     "legal_ss": ['WA', 'IA', 'NY', 'VT', 'NH', 'CT', 'MA', 'MD', 'ME', 'RI', 'DE', 'MN', 'CA', 'NJ', 'HI', 'IL',
-                 'NM', 'OR', 'PA', 'DC'],
+                 'NM', 'OR', 'PA', 'DC', 'IN', 'OK', 'UT', 'VA', 'WI'],
     "legal_cu": ['NV', 'CO'],
-    "legal_some": ['TX', 'OK', 'AR', 'VA', 'ID', 'UT', 'IN', 'KY', 'KS', 'AK', 'OH', 'WI', 'WY', 'MI-', 'SP-'],  // Michigan is weird.
+    "legal_some": ['TX', 'AR', 'ID', 'KY', 'KS', 'AK', 'OH', 'WY', 'MI-', 'SP-'],  // Michigan is weird.
     "banned_const": ['AZ', 'NE', 'MS', 'TN', 'MT', 'MO'],
     "banned_leg": ['WV'],
     "banned_both": ['NC', 'SD', 'ND', 'LA', 'AL', 'FL', 'GA', 'SC']
