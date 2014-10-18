@@ -4,7 +4,6 @@ var data = {
                  'IN', 'CO', 'NV', 'ID', 'WV', 'NC', 'AK', 'AZ'],
     "legal_some": ['FL', 'WY', 'TX', 'AR', 'KY', 'MI-', 'SP-'],  // Michigan is weird.
     "banned_const": ['NE', 'MS', 'TN', 'MT', 'MO'],
-    "banned_leg": [],
     "banned_both": ['SD', 'ND', 'LA', 'AL', 'GA', 'SC', 'OH']
 };
 
