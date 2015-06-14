@@ -1,9 +1,9 @@
 var data = {
     "legal_ss": ['MA', 'CA', 'CT', 'IA', 'VT', 'NH', 'DC', 'NY', 'WA', 'ME', 'MD', 'RI',
-                 'DE', 'MN', 'NJ', 'HI', 'IL', 'NM', 'OR', 'PA', 'UT', 'OK', 'VA' ,'WI',
-                 'IN', 'CO', 'NV', 'ID', 'WV', 'NC', 'AK', 'AZ', 'KS', 'MT', 'FL', 'AL'],
-    "legal_some": ['MO', 'WY', 'TX', 'AR', 'KY', 'SC', 'MI-', 'SP-'],  // Michigan is weird.
-    "banned_const": ['NE', 'MS', 'TN'],
+                 'DE', 'MN', 'NJ', 'HI', 'IL', 'NM', 'OR', 'PA', 'UT', 'OK', 'VA', 'WI',
+                 'IN', 'CO', 'NV', 'ID', 'WV', 'NC', 'AK', 'AZ', 'MT', 'FL', 'SC', 'WY'],
+    "legal_some": ['MO', 'TX', 'AR', 'MS', 'AL', 'KS'],  // Michigan is weird.
+    "banned_const": ['NE', 'TN', 'KY', 'MI-', 'SP-'],
     "banned_both": ['SD', 'ND', 'LA', 'GA', 'OH']
 };
 
