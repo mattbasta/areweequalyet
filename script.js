@@ -1,10 +1,12 @@
 var data = {
     "legal_ss": ['MA', 'CA', 'CT', 'IA', 'VT', 'NH', 'DC', 'NY', 'WA', 'ME', 'MD', 'RI',
                  'DE', 'MN', 'NJ', 'HI', 'IL', 'NM', 'OR', 'PA', 'UT', 'OK', 'VA', 'WI',
-                 'IN', 'CO', 'NV', 'ID', 'WV', 'NC', 'AK', 'AZ', 'MT', 'FL', 'SC', 'WY'],
-    "legal_some": ['MO', 'TX', 'AR', 'MS', 'AL', 'KS'],  // Michigan is weird.
-    "banned_const": ['NE', 'TN', 'KY', 'MI-', 'SP-'],
-    "banned_both": ['SD', 'ND', 'LA', 'GA', 'OH']
+                 'IN', 'CO', 'NV', 'ID', 'WV', 'NC', 'AK', 'AZ', 'MT', 'FL', 'SC', 'WY',
+                 'MO', 'TX', 'AR', 'MS', 'AL', 'KS', 'NE', 'TN', 'KY', 'SD', 'ND', 'LA',
+                 'GA', 'OH', 'MI-', 'SP-'], // Michigan is weird.
+    "legal_some": [],
+    "banned_const": [],
+    "banned_both": []
 };
 
 var defaultColor = '#777';
